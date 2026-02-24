@@ -780,15 +780,14 @@ git worktree remove ../cve-info-auth
 
 ### 공식 문서
 - [Claude Code 공식 문서](https://docs.anthropic.com/en/docs/claude-code/)
-- [Hooks 가이드](https://docs.anthropic.com/en/docs/claude-code/automate-workflows-with-hooks)
-- [MCP 서버 연결](https://docs.anthropic.com/en/docs/claude-code/connect-claude-code-to-tools-via-mcp)
-- [Skills 정의](https://docs.anthropic.com/en/docs/claude-code/extend-claude-with-skills)
-- [Sub-agents](https://docs.anthropic.com/en/docs/claude-code/create-custom-subagents)
+- [Hooks 가이드](https://code.claude.com/docs/en/hooks#hooks-reference)
+- [MCP 서버 연결](https://code.claude.com/docs/en/mcp)
+- [Skills 정의](https://code.claude.com/docs/en/skills)
+- [Sub-agents](https://code.claude.com/docs/en/sub-agents)
 
 ### 커뮤니티 자료
 - [Claude Code is a Beast](https://reddit.com/r/ClaudeAI) — 6개월 실무 노하우
-- [Claude Code 70가지 팁](https://github.com) — 종합 가이드
-- [생산성 10배 올리기](https://github.com) — 실무 적용 팁
+- [Claude Code 45가지 팁](https://github.com/ykdojo/claude-code-tips?utm_source=pytorchkr&ref=pytorchkr) — 종합 가이드
 
 ---
 
