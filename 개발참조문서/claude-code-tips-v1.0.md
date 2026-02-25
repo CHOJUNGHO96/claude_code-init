@@ -786,7 +786,7 @@ git worktree remove ../cve-info-auth
 - [Sub-agents](https://code.claude.com/docs/en/sub-agents)
 
 ### 커뮤니티 자료
-- [Claude Code is a Beast](https://reddit.com/r/ClaudeAI) — 6개월 실무 노하우
+- [Claude Code is a Beast](https://www.reddit.com/r/ClaudeAI/comments/1oivjvm/claude_code_is_a_beast_tips_from_6_months_of/) — 6개월 실무 노하우
 - [Claude Code 45가지 팁](https://github.com/ykdojo/claude-code-tips?utm_source=pytorchkr&ref=pytorchkr) — 종합 가이드
 
 ---
