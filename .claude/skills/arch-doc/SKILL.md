@@ -252,6 +252,21 @@ MCP 없는 경우: 이 단계를 건너뛰세요.
   - 다이어그램 C: 인증 흐름 (sequenceDiagram)
 ```
 
+### 규칙 3.5 — erDiagram 제약조건
+
+erDiagram 속성에 사용할 수 있는 제약조건(constraint)은 **`PK`, `FK`, `UK` 3가지만 유효**합니다.
+`PK_FK` 등 임의의 복합 키워드는 Mermaid 파서가 인식하지 못해 cascading parse error를 유발합니다.
+
+```
+❌ 절대 금지:
+  integer ai_no PK_FK
+
+✅ 올바른 예:
+  integer ai_no PK "자산 번호(FK 겸용)"
+```
+
+> PK와 FK를 동시에 표현해야 할 경우, `PK`로 표기하고 코멘트(따옴표 문자열)에 FK 역할을 명시하세요.
+
 ### 규칙 4 — 다이어그램 타입 선택 기준
 
 | 상황 | 사용할 타입 | 이유 |
